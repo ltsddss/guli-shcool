@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: gulischool-service-edu
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 419253381
+    url: jdbc:mysql://localhost:3306/gulischool?serviceTimezone=GMT%2B8
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
